@@ -1,0 +1,71 @@
+.navbar{
+  background-color: #060414;
+}
+body{
+  background-color: #F3F3F3;
+}
+a{
+  color: darkgray;
+}
+a:hover{
+  color: #4885ed;
+}
+::selection{
+    color: white;
+    background: purple;
+}
+.d-block {
+  height: 450px;
+}
+.myContainer{
+  padding-top: 20px;
+}
+.myCard{
+  align-items: center;
+  vertical-align: middle;
+  align-content: center;
+  height: 100px;
+}
+.item{
+  color: darkgray;
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+h1{
+  margin: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.myFont{
+  background-color: #ff8133;
+  text-align: center;
+  color: white;
+}
+
+.cardNotSelected{
+  height: 70px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px #A9A9A9;
+  font-size: 20px;
+  color: #828282;
+  align-items: center;
+  text-align: center;
+  transition: 0.5s;
+}
+.cardSelected{
+  height: 100px;
+  width: 200px;
+  box-shadow: 10px 10px 40px #D0D0D0;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  align-items: center;
+  transition: 0.5s;
+  color: #828282;
+
+}
